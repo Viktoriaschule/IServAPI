@@ -1,0 +1,26 @@
+{
+  "name": "IServAPI",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "author": "Finn <tupfi2@gmx.de>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "./node_modules/.bin/ts-node src/index.ts"
+  },
+  "dependencies": {
+    "form-data": "^3.0.0",
+    "got": "^10.6.0",
+    "node-html-parser": "^1.1.16",
+    "request": "^2.88.0",
+    "tough-cookie": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/form-data": "^2.5.0",
+    "@types/got": "^9.6.7",
+    "@types/request": "^2.48.3",
+    "@types/node": "^13.9.2",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.3"
+  }
+}

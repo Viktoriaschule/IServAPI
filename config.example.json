@@ -1,0 +1,5 @@
+{
+  "baseUrl": "https://url-of-iserv.server",
+  "username": "valid iserv user",
+  "password": "the password to the username"
+}
