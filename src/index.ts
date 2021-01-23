@@ -9,7 +9,7 @@ const main = async () => {
 
     const date = new Date();
     const endDate = new Date();
-    endDate.setDate(endDate.getDate() + 1);
+    endDate.setDate(endDate.getDate() + 7);
     const timetable = await getTimetable(config.baseUrl, session, {
         startDate: date.toLocaleString().split(',')[0].split('/').join('.'),
         endDate: endDate.toLocaleString().split(',')[0].split('/').join('.'),
